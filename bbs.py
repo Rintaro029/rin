@@ -88,7 +88,7 @@ def main():
                 host='ホスト名',
                 user ='ユーザー名',
                 passwd ='パスワード',
-                db='bbs',
+                db='データベース名',
                 use_unicode = True,
                 charset = 'utf8'
     )
