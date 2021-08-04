@@ -85,9 +85,9 @@ def main():
     global con, cur
     try:
         con = MySQLdb.connect(
-                host='localhost',
-                user ='rintaro',
-                passwd ='rintaro5630',
+                host='ホスト名',
+                user ='ユーザー名',
+                passwd ='パスワード',
                 db='bbs',
                 use_unicode = True,
                 charset = 'utf8'
